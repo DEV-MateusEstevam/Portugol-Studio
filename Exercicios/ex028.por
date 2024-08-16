@@ -1,7 +1,7 @@
-programa{
+programa{
 	inclua biblioteca Matematica --> mat
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("28) Faça um programa que leia a largura e o comprimento de um terreno retangular, calculando e mostrando a sua área em m². O programa também deve\nmostrar a classificação desse terreno, de acordo com a lista abaixo:\n")
 		escreva("\n- Abaixo de 100m² = TERRENO POPULAR\n- Entre 100m² e 500m² = TERRENO MASTER\n- Acima de 500m² = TERRENO VIP\n")
@@ -40,14 +40,3 @@ programa{
 		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1150; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {largura, 9, 7, 7}-{comprimento, 9, 16, 11}-{area, 9, 29, 4};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
