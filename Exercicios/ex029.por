@@ -1,7 +1,7 @@
-programa{
+programa{
 	inclua biblioteca Matematica --> mat
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("29) Desenvolva um programa que leia o nome de um funcionário, seu salário, quantos anos ele trabalha na empresa e mostre seu novo salário,\nreajustado de acordo com a tabela a seguir:")
 		escreva("\n- Até 3 anos de empresa: aumento de 3%\n- entre 3 e 10 anos: aumento de 12.5%\n- 10 anos ou mais: aumento de 20%\n")
@@ -34,14 +34,3 @@ programa{
 				}
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 51; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
