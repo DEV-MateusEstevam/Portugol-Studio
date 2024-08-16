@@ -1,7 +1,7 @@
-programa{
+programa{
 	inclua biblioteca Matematica --> mat
 
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("27) Crie um programa que leia duas notas de um aluno e calcule a sua média, mostrando uma mensagem no final, de acordo com a média atingida:")
 		escreva("\n- Média até 4.9: REPROVADO")
@@ -44,14 +44,3 @@ programa{
 			}
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1721; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {media, 12, 21, 5};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
