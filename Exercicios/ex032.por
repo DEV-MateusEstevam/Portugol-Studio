@@ -1,7 +1,8 @@
-programa{
-	inclua biblioteca Util --> u
+programa{
 	
-	funcao inicio(){
+inclua biblioteca Util --> u
+	
+	funcao inicio(){
 	
 		escreva("32) [DESAFIO] Crie um jogo onde o computador vai sortear um número entre 1 e 5 o jogador vai tentar descobrir qual foi o valor sorteado.\n")
 		inteiro numero, sorteado
@@ -22,20 +23,8 @@ programa{
 					}
 			u.aguarde(1000)
 			//limpa()2
-			
 		}
 
 		escreva("\nParabéns você acertou!O número digitado ("+numero+") corresponde ao sorteado ("+sorteado+") .\n")
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 770; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
