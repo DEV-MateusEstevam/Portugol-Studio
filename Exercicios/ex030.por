@@ -1,11 +1,12 @@
-programa{
+programa{
 
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("30) [DESAFIO] Refaça o algoritmo 25, acrescentando o recurso de mostrar que tipo de triângulo será formado:")
 		escreva("\n- EQUILÁTERO: todos os lados iguais\n- ISÓSCELES: dois lados iguais\n- ESCALENO: todos os lados diferentes\n")
 		
-		inteiro ladoA, ladoB, ladoC
+		inteiro 
+		ladoA, ladoB, ladoC
 
 		escreva("\n--- MONTANDO E CLASSIFICANDO UM TRIÂNGULO ---\n")
 		escreva("\nDigite o comprimento do 1° lado do triângulo: ")
@@ -30,14 +31,3 @@ programa{
 					}
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 378; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
