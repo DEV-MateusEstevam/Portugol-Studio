@@ -1,7 +1,9 @@
-programa{
+programa{
+
 	inclua biblioteca Matematica --> mat
 	inclua biblioteca Util --> u
-	funcao inicio(){
+
+	funcao inicio(){
 		
 		escreva("35) Uma empresa de aluguel de carros precisa cobrar pelos seus serviços. O aluguel de um carro custa R$90 por dia para carro\n") 
 		escreva("popular e R$150 por dia para carro de luxo. Além disso, o cliente paga por Km percorrido. Faça um programa que leia o tipo de carro alugado\n")
@@ -17,7 +19,6 @@ programa{
 		escreva("\n"+nome+" digite o número correspondente ao modelo de carro alugado [1 para CARRO POPULAR ou 2 para CARRO DE LUXO]: ")
 		leia(carro)
 		
-
 		enquanto ((carro != 1) e (carro != 2)){
 			escreva("\n[ERRO] Número "+carro+" não corresponde a nenhum modelo especificado. Tente novamente\n")
 
@@ -50,7 +51,7 @@ programa{
 				escreva("\nNOME DO LOCADOR: "+nome+"\nMODELO DE CARRO ALUGADO: POPULAR [R$90,00 DIÁRIA + 0,10 POR KM PERCORRIDO]")
 				escreva("\nTEMPO ALUGADO: "+dia+" DIAS\nDISTÂNCIA TOTAL PERCORRIDA DURANTE A ESTADIA: "+distancia+"Km\n")
 				escreva("\nCom as informações inseridas acima o total a pagar é de R$"+preco+"\n")
-			}
+				}
 			
 			}senao /*se (carro == 2)*/{
 				escreva("\n"+nome+" quantos dias o carro ficou alugado? ")
@@ -76,16 +77,6 @@ programa{
 							escreva("\nCom as informações inseridas acima o total a pagar é de R$"+preco+"\n")
 							}
 		}
-	}	
+	}
+	
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1253; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
