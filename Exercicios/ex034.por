@@ -1,14 +1,7 @@
-programa{
+programa{
 	inclua biblioteca Matematica --> mat
-	/*
- 
 
- 
- 
- 
-*/
-	
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("34) O Índice de Massa Corpórea (IMC) é um valor calculado baseado na altura e no peso de uma pessoa. De acordo com o valor do IMC, podemos\nclassificar o indivíduo dentro de certas faixas.\n")
 		escreva("- abaixo de 18.5: Abaixo do peso\n - entre 18.5 e 25: Peso ideal\n- entre 25 e 30: Sobrepeso\n- entre 30 e 40: Obesidade\n- acima de 40: Obseidade mórbida\n")
@@ -31,7 +24,7 @@ programa{
 
 		//Obs: O IMC é calculado pela expressão peso/altura² (peso dividido pelo quadrado da altura)
 				
-		imc = peso / (altura * altura)
+		imc = peso / (altura * altura)
 		imc = mat.arredondar(imc, 1)
 		
 		escreva("\nNOME DO(A) PACIENTE: "+nome+"\nPESO: "+peso+"Kg\nALTURA: "+altura+"\n")
@@ -49,14 +42,3 @@ programa{
 						}
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1043; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
