@@ -1,8 +1,8 @@
-programa{
+programa{
 	inclua biblioteca Util --> u
 	inclua biblioteca Matematica --> mat
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("36) Um programa de vida saudável quer dar pontos atividades físicas que podem ser trocados por dinheiro. O sistema funciona assim:\n")
 		escreva("\n- Cada hora de atividade física no mês vale pontos\n- até 30h de atividade no mês: ganha 2 pontos por hora\n- de 30h até 40h de atividade no mês: ganha 5 pontos por hora\n- acima de 40h de atividade no mês: ganha 10 pontos por hora\n- A cada ponto ganho, o cliente fatura R$0,05 (5 centavos)\n")
@@ -96,14 +96,3 @@ programa{
 		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1036; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
