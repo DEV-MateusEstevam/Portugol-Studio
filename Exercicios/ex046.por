@@ -1,6 +1,6 @@
-programa{
+programa{
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("46) Crie um programa que calcule e mostre na tela o resultado da soma entre 6 + 8 + 10 + 12 + 14 + ... + 98 + 100.\n\n")
 		inteiro contador, soma
@@ -18,19 +18,6 @@ programa{
 			soma += contador
 			contador += 2
 		}
-
 		escreva (""+soma+"\n")
-		
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 406; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
