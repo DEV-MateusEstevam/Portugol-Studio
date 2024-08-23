@@ -1,6 +1,6 @@
-programa{
+programa{
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("49) Crie um programa que leia 6 números inteiros e no final mostre quantos deles são pares e quantos são ímpares.\n")
 		inteiro n[6],vpar[6],vimpar[6], contador = 1, par = 0, impar = 0
@@ -43,11 +43,6 @@ programa{
 		}
 		escreva("]\n")
 
-		
-
-		
-		
-		
 		/*contador = 1
 		par = 0
 		impar = 0
@@ -64,18 +59,6 @@ programa{
 				impar++
 			}
 		}
-
 		escreva("\nDos números inseridos acima "+par+" são PARES e "+impar+" são IMPARES.\n")*/
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 164; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {n, 6, 10, 1}-{vpar, 6, 15, 4}-{vimpar, 6, 23, 6};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
