@@ -1,8 +1,8 @@
-programa{
+programa{
 
 	inclua biblioteca Util --> u
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("50) Desenvolva um programa que faça o sorteio de 20 números entre 0 e 10 e mostre na tela:\n")
 
@@ -50,17 +50,5 @@ programa{
 			}
 		}
 		escreva("]\n")
-
 	}	
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 974; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {a, 12, 28, 1};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
