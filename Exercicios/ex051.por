@@ -73,17 +73,5 @@ programa{
 		escreva(" ]\n")
 
 		escreva("\nO MAIOR preço digitado foi o R$"+maior+"\nE o MENOR valor digitado foi o R$"+menor+"\n")
-
 	}	
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 78; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {maior, 8, 14, 5}-{menor, 8, 27, 5}-{p, 8, 40, 1}-{vet, 8, 46, 3};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
