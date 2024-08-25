@@ -90,7 +90,6 @@ programa{
 
 				escreva("\nDigite [M] para Masculino e [F] para Feminino. Qual é o sexo biológico da(o)"+nome+": ")
 				leia(sexo)
-			
 			}
 
 			se (sexo == "M"){
@@ -142,7 +141,6 @@ programa{
 					mulher++
 					contador++
 					}
-			
 			}
 			
 		}
@@ -185,18 +183,5 @@ programa{
 		} senao {
 			escreva("\ne) Quantas mulheres tem mais de 20 anos? "+fmais+" mulheres tem mais de 20 anos.\n")
 			}
-
 	}
 }
-
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 4541; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {homem, 8, 10, 5}-{mulher, 8, 21, 6}-{v, 8, 40, 1}-{mi, 8, 46, 2}-{fi, 8, 53, 2}-{grupo, 8, 91, 5}-{ihomem, 8, 102, 6}-{fmais, 8, 114, 5}-{m, 9, 21, 1}-{f, 9, 27, 1}-{n, 9, 33, 1};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
