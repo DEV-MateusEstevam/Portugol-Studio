@@ -1,8 +1,8 @@
-programa{
+programa{
 
 	inclua biblioteca Util --> u
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("56) Crie um programa que leia vários números pelo teclado e mostre no final o somatório entre eles. Obs: O programa será interrompido quando o número 1111 for digitado\n")
 		inteiro numero = 0, soma = 0, contador = 1
@@ -27,14 +27,3 @@ programa{
 		escreva("\nA soma dos valores inseridos é igual a "+soma+".\n")
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 759; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {soma, 8, 22, 4};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
