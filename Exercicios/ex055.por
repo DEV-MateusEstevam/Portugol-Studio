@@ -32,7 +32,6 @@ programa{
 							
 							escreva("\nYOU LOSE! Perante as "+contador+" tentativas você não conseguiu acertar o número sorteado que era ("+sorteio+")...\n")
 							pare
-							
 							}
 					
 			} senao se (numero == sorteio) {
@@ -44,26 +43,12 @@ programa{
 	
 					escreva("\nNa trave! O número "+numero+" ainda não foi o sorteado. Tente novamente!\n")
 					u.aguarde(1000)
-			
 			 	} 
 
 				escreva("\n"+contador+"° tentativa.Digite um número de 1 a 10: ")
 				leia(numero)
 				contador++
-	
 		}
 		
 	}
 }
-
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1249; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
