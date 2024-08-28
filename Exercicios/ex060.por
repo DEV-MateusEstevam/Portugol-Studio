@@ -1,13 +1,8 @@
-programa{
+programa{
 	inclua biblioteca Util --> u
 	inclua biblioteca Matematica --> mat
-	/*
-
-
-
-
-*/
-	funcao inicio(){
+	
+	funcao inicio(){
 		
 		escreva("60) Desenvolva um algoritmo que leia o nome, a idade e o sexo de várias pessoas. O programa vai perguntar se o usuário quer ou não continuar.\nNo final, mostre:\n")
 		cadeia nome, velhaP = "", mjovem = ""
@@ -102,7 +97,6 @@ programa{
 			 			velhaP = nome
 			 		}
 			 	}
-			 	
 			 }
 			 
 			pessoa++
@@ -152,14 +146,3 @@ programa{
 				}
 	}	
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 4376; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {nome, 13, 9, 4}-{velhaP, 13, 15, 6}-{mjovem, 13, 28, 6}-{contador, 15, 17, 8}-{somaI, 15, 31, 5}-{idadeH, 15, 42, 6}-{maisD, 15, 50, 5}-{menosE, 15, 75, 6}-{pessoa, 15, 85, 6}-{maisB, 15, 95, 5}-{velhaI, 15, 106, 6};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
