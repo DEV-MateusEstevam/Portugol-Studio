@@ -1,7 +1,7 @@
-programa{
+programa{
 	inclua biblioteca Util --> u
 
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("62) Faça um programa usando a estrutura “faça enquanto” que leia a idade de várias pessoas. A cada laço, você deverá perguntar para o usuário se ele\nquer ou não continuar a digitar dados. No final, quando o usuário decidir parar, mostre na tela:\n")
 		inteiro idade, contador = 1, maisC = 0, total = 0, soma = 0, media 
@@ -25,8 +25,7 @@ programa{
 					
 				u.aguarde(1000)
 				escreva("\nQuantos anos a(o) "+nome+": ")
-				leia(idade)
-				
+				leia(idade)	
 			}
 
 			soma += idade
@@ -47,7 +46,6 @@ programa{
 				u.aguarde(1000)
 				escreva("\n[Digite S para SIM ou N para NÃO] Deseja continuar? ")
 				leia(continuar)
-				
 			}
 			
 		}enquanto (continuar != 'N')
@@ -76,17 +74,5 @@ programa{
 			} senao{
 				escreva("\nAo total foram cadastradas "+maisC+" pessoas com idade superior a 21 anos.\n")
 				}
-		
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 978; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {contador, 7, 17, 8}-{maisC, 7, 31, 5}-{total, 7, 42, 5}-{soma, 7, 53, 4}-{media, 7, 63, 5};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
