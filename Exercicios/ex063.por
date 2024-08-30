@@ -23,7 +23,6 @@ programa{
 				u.aguarde(1000)
 				escreva("\nDigite o "+contador+"° número inteiro: ")
 				leia(numero)
-				
 			}
 
 			soma += numero
@@ -84,15 +83,3 @@ programa{
 				}
 	}
 }
-
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 2432; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {contador, 7, 10, 8}-{par, 7, 32, 3}-{media, 7, 41, 5}-{menor, 7, 48, 5}-{soma, 7, 59, 4}-{total, 7, 69, 5};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
