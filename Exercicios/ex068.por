@@ -1,8 +1,8 @@
-programa{
+programa{
 	inclua biblioteca Matematica --> mat
 	inclua biblioteca Util --> u
 	
-	funcao inicio(){
+	funcao inicio(){
 		escreva("68) Crie um programa que leia sexo e peso de 8 pessoas, usando a estrutura “para”. No final, mostre na tela:\n")
 		cadeia nome, nomeD = ""
 		inteiro contador = 1, maisB = 0, mulherA = 0
@@ -55,7 +55,6 @@ programa{
 
 				se (peso > 100.0){
 					maisB++
-				
 				}
 
 				contador++	
@@ -81,7 +80,6 @@ programa{
 				mulherA++
 				somaC += peso
 				contador++
-				
 			}
 		}
 		mediaC = somaC / mulherA
@@ -120,14 +118,3 @@ programa{
 			}
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 82; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {nomeD, 7, 15, 5}-{contador, 8, 10, 8}-{maisB, 8, 24, 5}-{mulherA, 8, 35, 7}-{peso, 9, 7, 4}-{maiorD, 9, 13, 6}-{mediaC, 9, 27, 6}-{somaC, 9, 41, 5};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
