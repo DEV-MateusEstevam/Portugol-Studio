@@ -1,7 +1,7 @@
-programa{
+programa{
 	inclua biblioteca Util --> u
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("69) [DESAFIO] Desenvolva um programa que leia o primeiro termo e a razão de uma PA (Progressão Aritmética), mostrando na tela os 10 primeiros\nelementos da PA e a soma entre todos os valores da sequência.\n")
 		inteiro numero, razao, res = 0, soma
@@ -50,14 +50,3 @@ programa{
 			escreva("\nA soma de todos os números da Progressão Aritmética é "+soma+" .\n")
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 955; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
