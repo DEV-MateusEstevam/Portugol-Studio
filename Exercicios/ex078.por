@@ -1,6 +1,6 @@
-programa{
+programa{
 	
-	funcao inicio(){
+	funcao inicio(){
 	
 		escreva("78) Escreva um programa que leia 15 números e guarde-os em um vetor. No final, mostre o vetor inteiro na tela e em seguida mostre\nem que posições foram digitados valores que são múltiplos de 10.\n")
 		inteiro v[15], contador = 1
@@ -31,14 +31,3 @@ programa{
 		escreva("respectivamente.\n")
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 14; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {v, 6, 10, 1};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
