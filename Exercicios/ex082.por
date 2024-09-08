@@ -1,8 +1,8 @@
-programa{
+programa{
 	inclua biblioteca Matematica --> mat
 	inclua biblioteca Util --> u
 	
-	funcao inicio(){
+	funcao inicio(){
 	
 		escreva("82) Faça um algoritmo que leia a nota de 10 alunos de uma turma e guarde-as em um vetor. No final, mostre:\n")
 		real v[10], soma = 0.0, media = 0.0, maiorC = 0.0
@@ -77,14 +77,3 @@ programa{
 		escreva("respectivamente.\n")
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1357; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {v, 8, 7, 1}-{soma, 8, 14, 4}-{media, 8, 26, 5}-{maiorC, 8, 39, 6}-{contador, 9, 10, 8}-{acimaB, 9, 24, 6}-{n, 10, 9, 1};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
