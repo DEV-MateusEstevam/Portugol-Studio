@@ -1,8 +1,8 @@
-programa{
+programa{
 	
 	inclua biblioteca Util --> u
 
-	funcao inicio(){
+	funcao inicio(){
 		escreva("80) Faça um algoritmo que preencha um vetor de 30 posições com números entre 1 e 15 sorteados pelo computador. Depois disso, peça para o usuário digitar um número (chave) e seu programa deve mostrar em que posições essa chave foi encontrada. Mostre também quantas vezes a chave foi sorteada.\n")
 		inteiro v[30], chave, soma = 0
 
@@ -40,14 +40,3 @@ programa{
 		escreva("se repetindo "+soma+" vez(es) perante todo o Vetor.\n")
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1197; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {v, 7, 10, 1}-{chave, 7, 17, 5}-{soma, 7, 24, 4};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
