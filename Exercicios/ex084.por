@@ -1,7 +1,7 @@
-programa{
+programa{
 	inclua biblioteca Util --> u
 	
-	funcao inicio(){
+	funcao inicio(){
 		escreva("84) Crie um programa que leia o nome e a idade de 9 pessoas e guarde esses valores em dois vetores, em posições relacionadas. No final, mostre uma\nlistagem contendo apenas os dados das pessoas menores de idade.\n")
 
 		cadeia n[9]
@@ -42,14 +42,3 @@ programa{
 		escreva("\n")
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1097; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
