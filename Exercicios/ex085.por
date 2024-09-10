@@ -1,8 +1,8 @@
-programa{
+programa{
 	inclua biblioteca Util --> u
 	inclua biblioteca Matematica --> mat
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("85) Faça um algoritmo que leia o nome, o sexo e o salário de 5 funcionários e guarde esses dados em três vetores. No final, mostre uma listagem contendo apenas os dados das funcionárias mulheres que ganham mais de R$5 mil.\n")
 		cadeia n[5]
@@ -19,7 +19,8 @@ programa{
 			
 			enquanto(b[c] != 'M' e b[c] != 'F'){
 				escreva("\n[ERRO] Caracter '"+b[c]+"' é inválido. Tente novamente.\n")
-				u.aguarde(1000)
+				
+				u.aguarde(1000)
 				escreva("\nDigite M para Masculino ou F para Feminino. Qual o sexo biológico do(a) "+n[c]+": ")
 				leia(b[c])
 			}
@@ -70,14 +71,3 @@ programa{
 		escreva("\n")
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1339; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {n, 8, 9, 1}-{s, 9, 7, 1}-{b, 10, 11, 1}-{contador, 11, 10, 8};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
