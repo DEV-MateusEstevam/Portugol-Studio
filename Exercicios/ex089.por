@@ -1,4 +1,4 @@
-programa{
+programa{
 	inclua biblioteca Util --> u
 
 	funcao Gerador(cadeia mensagem, cadeia borda,  inteiro repeticao){
@@ -11,7 +11,7 @@ programa{
 		escreva("\n"+ borda)
 		
 	}
-	funcao inicio(){
+	funcao inicio(){
 		escreva("89) Crie um programa que melhore o procedimento Gerador() da questão anterior para que o programador possa escolher uma entre três bordas:\n+-------=======------+ Borda 1\n~~~~~~~~:::::::~~~~~~~ Borda 2\n<<<<<<<<------->>>>>>> Borda 3\n")
 		inteiro borda
 
@@ -41,14 +41,3 @@ programa{
 		escreva("\n")
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 752; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {mensagem, 4, 23, 8}-{borda, 4, 40, 5}-{repeticao, 4, 56, 9}-{borda, 16, 10, 5};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
