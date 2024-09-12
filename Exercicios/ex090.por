@@ -1,4 +1,4 @@
-programa{
+programa{
 	inclua biblioteca Util --> u
 	inclua biblioteca Matematica --> mat
 
@@ -8,7 +8,7 @@ programa{
 		escreva("\nA soma entre "+numero1+" + "+numero2+" é igual a "+resultado+".\n")
 	}
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		escreva("90) Desenvolva um algoritmo que leia dois valores pelo teclado e passe esses valores para um procedimento Somador() que vai calcular e mostrar a\nsoma entre eles.\n")
 		real numero1, numero2
@@ -44,14 +44,3 @@ programa{
 		soma(numero1, numero2)
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 438; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {numero1, 5, 18, 7}-{numero2, 5, 32, 7}-{resultado, 6, 7, 9}-{numero1, 14, 7, 7}-{numero2, 14, 16, 7};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
