@@ -1,4 +1,4 @@
-programa{
+programa{
 	inclua biblioteca Util --> u
 
 	funcao Fibonacci(inteiro numero){
@@ -12,7 +12,7 @@ programa{
 		escreva("FIM\n")
 	}
 	
-	funcao inicio(){
+	funcao inicio(){
 		escreva("94) [DESAFIO] Desenvolva um aplicativo que tenha um procedimento chamado Fibonacci() que recebe um único valor inteiro como parâmetro, indicando\nquantos termos da sequência serão mostrados na tela. O seu procedimento deve receber esse valor e mostrar a quantidade de elementos solicitados.\n")
 		inteiro numero
 
@@ -30,14 +30,3 @@ programa{
 		Fibonacci(numero)
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 239; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {c, 6, 15, 1};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
