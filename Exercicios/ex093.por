@@ -1,4 +1,4 @@
-programa{
+programa{
 	inclua biblioteca Util --> u
 	
 	funcao Contador(inteiro comeco, inteiro fim, inteiro incremento){
@@ -16,7 +16,8 @@ programa{
 			}
 		}
 	}
-	funcao inicio(){
+
+	funcao inicio(){
 		escreva("93) Faça um programa que tenha um procedimento chamado Contador() que recebe três valores como parâmetro: o início, o fim e o incremento de uma\ncontagem. O programa principal deve solicitar a digitação desses valores e passá-los ao procedimento, que vai mostrar a contagem na tela.\n")
 		inteiro comeco, incremento , fim
 
@@ -43,17 +44,5 @@ programa{
 		Contador(comeco, fim, incremento)
 
 		escreva("FIM!")
-		
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1013; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {comeco, 4, 25, 6}-{fim, 4, 41, 3}-{incremento, 4, 54, 10}-{comeco, 21, 10, 6}-{incremento, 21, 18, 10}-{fim, 21, 31, 3};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
