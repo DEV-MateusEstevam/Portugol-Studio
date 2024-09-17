@@ -1,8 +1,7 @@
-programa{
+programa{
 	inclua biblioteca Util --> u
 	inclua biblioteca Matematica --> mat
-	/**/
-
+	
 	funcao real Media(real n1, real n2){
 		real mAluno = (n1 + n2)/2
 		mAluno = mat.arredondar(mAluno, 1)
@@ -21,7 +20,8 @@ programa{
 		}
 		retorne sit
 	}
-	funcao inicio(){
+	funcao inicio()
+{
 		escreva("100) Melhore o exercício 96, criando além da função Media() uma outra função chamada Situacao(), que vai retornar para o programa principal se o\naluno está APROVADO, em RECUPERAÇÃO ou REPROVADO. Essa nova função, vai receber como parâmetro o resultado retornado pela função Media().\n")
 		cadeia nome
 		real nota1, nota2
@@ -62,20 +62,5 @@ programa{
 			} senao{
 				escreva("\nCom as notas inseridas ("+nota1+") e ("+nota2+") a média do(a) "+nome+" é "+mat.arredondar(Media(nota1, nota2), 1)+", ficando de "+Situacao(Media(nota1, nota2))+" na matéria.\n")
 				}
-
-		
-
-		
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 648; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {mAluno, 13, 29, 6}-{sit, 14, 9, 3};
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
